@@ -1,0 +1,39 @@
+{
+  "name": "dynamic-mailer",
+  "version": "1.0.1",
+  "description": "Dynamic mailer is used to send mail with dynamic template of handlebar",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "remove",
+    "space",
+    "string"
+  ],
+  "author": "Navjot Dhanawat <navjotdhanawat@gmail.com> (http://www.navjotdhanawat.com/)",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": ""
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/navjotdhanawat/dynamic-mailer/issues"
+  },
+  "devDependencies": {
+    "mocha": "~1.16.2",
+    "chai": "~1.8.1"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "handlebars": "^4.0.8",
+    "nodemailer": "~0.7.1",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "path": "^0.12.7"
+  }
+}
