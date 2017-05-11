@@ -1,4 +1,4 @@
-#How to Setup: Dynamic Mailer for sending mail with customized template using handlebar, nodejs,  express.
+# How to Setup: Dynamic Mailer for sending mail with customized template using handlebar, nodejs,  express.
 
 ```
 npm install dynamic-mailer --save
@@ -8,7 +8,7 @@ npm install dynamic-mailer --save
 Steps:
 1. Include package 'dynamic-mailer'
 2. Create credentials and data object as below.
-3. content, header and footer of template should be in <td> tag.
+3. content, header and footer of template should be in 'td' tag.
 4. Just call mailer() function.
 
 
@@ -44,4 +44,6 @@ mailer(data, function(err, data){
 
 ```
 
-Please let us know if any bug. [Link](https://github.com/navjotdhanawat/dynamic-mailer/issues)
+
+
+## Please let us know if any bug. [Link](https://github.com/navjotdhanawat/dynamic-mailer/issues)
