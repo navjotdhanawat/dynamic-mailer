@@ -1,6 +1,6 @@
 {
   "name": "dynamic-mailer",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "Dynamic mailer is used to send mail with dynamic template of handlebar",
   "main": "index.js",
   "scripts": {
@@ -32,7 +32,7 @@
   "dependencies": {
     "fs": "0.0.1-security",
     "handlebars": "^4.0.8",
-    "nodemailer": "~0.7.1",
+    "nodemailer": "^4.0.1",
     "nodemailer-smtp-transport": "^2.7.4",
     "path": "^0.12.7"
   }

@@ -1,13 +1,13 @@
 /**
  * dymanic-mailer
- * 
+ *
  *
  * Copyright (c) 2017 Navjot Dhanawat
  * Licensed under the MIT license.
  */
 
 /**
- * Remove space from given string.
+ * Send mail using nodejs with custom handlebar template.
  *
  * @param  {options}
  * @return {callback}
@@ -26,8 +26,8 @@ var smtpTransport = require('nodemailer-smtp-transport');
 
 
 var sendEmail = function (data, callback) {
-    var transporter = nodemailer.createTransport("SMTP", (data.credentials));
-    
+    var transporter = nodemailer.createTransport(data.credentials);
+
     var options = {
         from: data.from,
         to: data.to,
@@ -39,7 +39,7 @@ var sendEmail = function (data, callback) {
             callback({ status: 1, data: data });
         } else {
             callback({ status: 0, data: err });
-        }   
+        }
     });
 }
 
