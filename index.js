@@ -32,7 +32,7 @@ var sendEmail = function (data, callback) {
         from: data.from,
         to: data.to,
         subject: data.subject,
-        html: template({ content: data.content })
+        html: template(data)
     };
     transporter.sendMail(options, function (err, data) {
         if (data) {
